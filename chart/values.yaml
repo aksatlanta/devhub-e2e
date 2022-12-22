@@ -3,6 +3,7 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 valueLabel: fromValuesYAML
+namespace: aa23221f-3140-478d-8ef2-ab9fb24e44f4
 image:
   repository: nginx
   tag: stable
@@ -34,5 +35,5 @@ resources: {}
   #  cpu: 100m
   #  memory: 128Mi
   # requests:
-  #  cpu: 100m
+#  cpu: 100m
 #  memory: 128Mi
